@@ -1,0 +1,75 @@
+*{
+    font-family: sans-serif;
+}
+body {
+    color: #000;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    background-color: rgb(199, 192, 135);
+    border-radius: 10px;
+    width: 740px;
+    height: 260px;
+    align-self: center;
+}
+.key-container {
+    margin-top: 15px;
+    position: relative;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid #000 1px;
+    border-radius: 5px;
+}
+.col-1>div {
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    margin: 2px;
+    text-align: center;
+    
+}
+#backspace {
+    width: 100px;
+}
+#tab {
+    width: 70px;
+}
+#slash {
+    width: 70px;
+}
+#caps-lock {
+    width: 81px;
+}
+#enter {
+    width: 105px;
+}
+#shift {
+    width: 116px;
+}
+#ctrl {
+    width: 65.5px;
+}
+#alt {
+    width: 45px;
+}
+#command {
+    width: 70px;
+    font-size: x-small;
+}
+#fn {
+    width: 40px;
+}
+#space {
+    width: 255px;
+}
